@@ -20,3 +20,6 @@ Traceback (most recent call last):
   File "/home/orienit/.local/lib/python3.4/site-packages/scipy/sparse/csr.py", line 438, in process_slice
     i0, i1, stride = sl.indices(num)
 TypeError: slice indices must be integers or None or have an __index__ method
+
+
+Solution :  Replace line 1 in "DTSumAndPop" Function  by NV=int(np.size(TrgtInpt)/3)
