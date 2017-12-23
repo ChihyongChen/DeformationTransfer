@@ -23,3 +23,8 @@ TypeError: slice indices must be integers or None or have an __index__ method
 
 
 Solution :  Replace line 1 in "DTSumAndPop" Function  by NV=int(np.size(TrgtInpt)/3)
+
+
+Change:
+
+Hi I made a small change. I modified the function "GetY". Now this code doesn't change the shape of the target. 
